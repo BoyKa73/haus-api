@@ -8,6 +8,7 @@ app = Flask(__name__)
 houses = [
     { "id": 1, "name": "single-familiy-house", "age": 5, "type": "wooden-house"},
     { "id": 2, "name": "multi-familiy-house", "age": 2, "type": "brick"}
+    { "id": 3, "name": "villa", "age": 88, "type": "brick"}
 ]
 
 ## Test-Route für Startseite
