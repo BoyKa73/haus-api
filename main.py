@@ -27,7 +27,7 @@ def add_houses():
     new_house = request.get_json() # Hole dir aus dem Request-Objekt die Daten im JSON-Format
     # { "id": 3, "name": .., "age": ..., "type": ...}
 
-    housess.append(new_house) # hänge das Objekt im JSON-Format hinten dran
+    houses.append(new_house) # hänge das Objekt im JSON-Format hinten dran
     return f"{new_house} wurde erfolgreich hinzugefügt", 201
 
 ## DELETE-Route, um ein Haus aus der Liste zu löschen
